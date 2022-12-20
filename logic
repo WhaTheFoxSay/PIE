@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int pie, gedang, apel, buah, half, raw;
+    cout << "__MENGHITUNG JUMLAH PIE YANG DIBUAT DENGAN APEL__"<<endl;
+    cout << "-------------------------------------------------"<<endl;
+    cout << "Masukan Jumlah Buah "; cin >> buah;cout <<endl;
+    half = 2;
+    gedang = buah / half;
+    apel = buah - gedang;
+    raw = 3;
+    pie = apel / raw;
+    cout << "-------------------------------------------------"<<endl;
+    cout << "Jumlah Buah Pisang sebanyak " << gedang << ", dan Pie yang dibuat sebanyak " << pie << " dari " << apel << " Apel";
+    
+        return 0;
+}
